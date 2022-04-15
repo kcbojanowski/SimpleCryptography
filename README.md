@@ -28,7 +28,7 @@ algorithms of cryptography as well as RSA algorithm and Shamir's Secret Sharing 
 ## Information 
 
 Simple Cryptography was written in Python 3.10 by Kacper Bojanowski and Filip Opiłka
-Main libraries are: [Tkinter](https://docs.python.org/3/library/tkinter.html), [Cryptodome](https://www.pycryptodome.org/en/latest/), [Matplotlib](https://matplotlib.org/)
+Main libraries are: [Tkinter](https://docs.python.org/3/library/tkinter.html), [Cryptodome](https://www.pycryptodome.org/en/latest/), [Matplotlib](https://matplotlib.org/), [NLTK](https://www.nltk.org/)
 
 ## Literature 
 
