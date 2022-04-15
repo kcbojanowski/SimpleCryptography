@@ -1,4 +1,4 @@
-# **Cryptography Tool**
+# **Simple Cryptography**
 
 | Project Details   |      |
 | --- | --- | 
@@ -6,7 +6,8 @@
 |`College`| AGH University of Science and Technology
 |`Subject`| Języki Programowania Wyższego Poziomu
 
-Simple Cryptography is an app that helps you deal with classical algorithms of cryptography as well as RSA algorithm and Shamir's Secret Sharing Scheme
+Simple Cryptography is an app that helps you deal with classical 
+algorithms of cryptography as well as RSA algorithm and Shamir's Secret Sharing Scheme.
 ## Table of Contents
 
 - [Features](#features)
