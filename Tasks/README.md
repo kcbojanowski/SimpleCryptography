@@ -16,6 +16,6 @@ In function `key_pair()` write a code that will allow you to save pair of keys:
 public and private it format of `public_key_[Year][Month][Hour][Minute][Second].pem`.
 To do that use library **Cryptodome**. 
 
-To download it go to *Python Packages* and install *pycryptodomex*
+To download it go to *Python Packages* in Pycharm and install *pycryptodomex* or use `pip install pycryptodomex`
 
 ## Task no. 3 - Sockets
