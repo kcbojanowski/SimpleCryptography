@@ -14,7 +14,7 @@ File: `Task_2.py`
 
 In function `key_pair()` write a code that will allow you to save pair of keys:
 public and private it format of `public_key_[Year][Month][Hour][Minute][Second].pem`.
-To do that use library **Cryptodome**. 
+To do that use library **Cryptodome**. You can find command [here](https://www.pycryptodome.org/en/latest/src/examples.html#generate-an-rsa-key).
 
 To download it go to *Python Packages* in Pycharm and install *pycryptodomex* or use `pip install pycryptodomex`
 
