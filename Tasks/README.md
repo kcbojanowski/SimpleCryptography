@@ -1,7 +1,7 @@
 # **Tasks**
 
 ## Practical part of Simple Cryptography presentation
-There are three tasks waiting for you. 
+There are three tasks waiting for you. Each one deals with a different subject of cryptography.
 
 ### Task no. 1 - Classical ciphers
 File: `Task_1.py`
@@ -18,3 +18,5 @@ To do that use library **Cryptodome**.
 To download it go to *Python Packages* and install *pycryptodomex* or use command `pip install pycryptodomex`.
 
 ### Task no. 3 - Sockets
+
+*Good luck!*
