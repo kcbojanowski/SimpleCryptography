@@ -6,8 +6,13 @@ To do that use library Cryptodome.
 """
 
 # IMPORTS
+from Cryptodome.PublicKey import RSA
+import binascii
+import datetime
 
 
 # FUNCTION TO WORK WITH
 def key_pair():
-    pass
+    # here is a code used for getting current time
+    now = datetime.datetime.now() # now - current time
+    date = now.strftime("%y_%m_%d_%H%M%S") # date - string showing current time
