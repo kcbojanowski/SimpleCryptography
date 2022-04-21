@@ -5,14 +5,13 @@ the Internet. You can use given function to generate key.
 """
 
 
-def generateKey(string, key):
-    key = list(key)
-    string = string.replace(" ", "")
-
-    if len(string) == len(key):
+def generateKey(mess, keyword):
+    key = list(keyword)
+    mess = mess.replace(" ", "")
+    if len(mess) == len(key):
         return key
     else:
-        for i in range(len(string) - len(key)):
+        for i in range(len(mess) - len(key)):
             key.append(key[i % len(key)])
     key = "".join(key).upper()
     return key
@@ -20,6 +19,6 @@ def generateKey(string, key):
 
 # message is a plain text to encrypt
 # keyword is a key multiplied to match a length of a message
-def Encrypt_Vigenere(message, keyword):
+def Encrypt_Vigenere(message, key):
     # ENTER YOUR CODE HERE
     pass
