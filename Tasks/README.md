@@ -19,4 +19,8 @@ To download it go to *Python Packages* and install *pycryptodomex* or use comman
 
 ### Task no. 3 - Sockets
 
+Write a program that will send a message from the client to the server. 
+You can use documentation for Socket library: https://docs.python.org/3/library/socket.html. 
+The server code has already been uploaded.
+
 *Good luck!*
