@@ -1,8 +1,9 @@
 """
-Task no.2
-In function key_pair() write a code that will allow you to save pair of keys:
-public and private it format of `public_key_[Year][Month][Hour][Minute][Second].pem`.
-To do that use library Cryptodome.
+Zadanie nr 2
+Dokończ funkcję key_pair() abyśmy mogli przy jej użyciu wygenerować i zapisać parę kluczy:
+publiczny i prywatny w formacie: `public_key_[Rok][Miesiac][Godzina][Minuta][Sekunda].pem`.
+Wykorzystaj bibliotekę Cryptodome. Przy rozwiązywaniu zadania można korzystać z dokumentacji
+biblioteki Cryptodome: https://www.pycryptodome.org/en/latest/
 """
 
 # IMPORTS
@@ -13,6 +14,4 @@ import datetime
 
 # FUNCTION TO WORK WITH
 def key_pair():
-    # here is a code used for getting current time
-    now = datetime.datetime.now() # now - current time
-    date = now.strftime("%y_%m_%d_%H%M%S") # date - string showing current time
+   pass

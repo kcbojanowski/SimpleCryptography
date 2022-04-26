@@ -6,7 +6,7 @@ There are three tasks waiting for you. Each one deals with a different subject o
 ### Task no. 1 - Classical ciphers
 File: `Task_1.py`
 
-Write a code that will encrypt plaintext in Vigenere Cipher. As a parameters to the function use plaintext and key previously prepared by function generate_key().  Try to avoid using the Internet.
+Write a code that will decrypt ciphertext in Vigenere Cipher. As a parameters to the function use ciphertext and key previously prepared by function generate_key().  Try to avoid using the Internet.
 
 ### Task no. 2 - RSA
 File: `Task_2.py`

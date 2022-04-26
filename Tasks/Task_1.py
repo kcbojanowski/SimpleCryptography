@@ -1,7 +1,7 @@
 """
-Task no. 1
-Write a code that will encrypt plaintext in Vigenere Cipher. Try to avoid using
-the Internet. You can use given function to generate key.
+Zadanie nr 1
+Napisz funkcje służącą do odszyfrowywania szyfrogramu szyfru Vigenere. Spróbuj nie używać
+Internetu.
 """
 
 
@@ -13,12 +13,21 @@ def generateKey(mess, keyword):
     else:
         for i in range(len(mess) - len(key)):
             key.append(key[i % len(key)])
-    key = "".join(key).upper()
-    return key
+    generated_key = "".join(key).upper()
+    return generated_key
 
 
-# message is a plain text to encrypt
-# keyword is a key multiplied to match a length of a message
-def Encrypt_Vigenere(message, key):
+"""
+[PARAMETRY]
+ message - szyfrogram Vigenere
+ keyword - klucz 
+ key - klucz wygenerowany przez funkcje generateKey()
+ (powielony aby otrzymać tą samą długość co szyfrogram)
+ [PODPOWIEDŹ] chr(65) = "A", chr(66) = "B" itp.
+ """
+
+
+def Decrypt_Vigenere(message, keyword):
+    key = generateKey(message, keyword)
     # ENTER YOUR CODE HERE
     pass
