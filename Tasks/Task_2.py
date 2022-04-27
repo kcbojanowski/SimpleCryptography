@@ -14,4 +14,6 @@ import datetime
 
 # FUNCTION TO WORK WITH
 def key_pair():
-   pass
+   now = datetime.datetime.now() # czas
+   date = now.strftime("%y_%m_%d_%H%M%S") # data w podanym formacie
+
